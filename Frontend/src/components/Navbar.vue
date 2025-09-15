@@ -12,7 +12,7 @@
         </a>
         <ul class="dropdown-menu">
           <li><router-link to="/lineal">Lineal Congruencial</router-link></li>
-          <li><router-link to="/multiplicativo">Cuadrados Medios</router-link></li>
+          <li><router-link to="/multiplicativo">Congruencial multiplicativa</router-link></li>
         </ul>
       </li>
     </ul>

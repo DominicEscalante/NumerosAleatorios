@@ -76,9 +76,9 @@ const particleOptions = {
     number: {
       density: {
         enable: true,
-        area: 800,
+        area: 1000,
       },
-      value: 150,
+      value: 90,
     },
     opacity: {
       value: 0.5,

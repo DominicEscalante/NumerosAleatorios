@@ -43,7 +43,7 @@
               <h2>Algoritmo Lineal Congruencial</h2>
               <p>
                 Un método clásico que genera números pseudoaleatorios usando la fórmula
-                <br /><code>X(n+1) = (a * X(n) + c) mod m</code>. <br />Simple pero efectivo para
+                <br /><code>X(i) = (a * X(i-1) + c) mod m</code>. <br />Simple pero efectivo para
                 muchas aplicaciones.
               </p>
               <button class="btn animated-btn" @click="probar('lineal')">
@@ -61,7 +61,7 @@
               <p>
                 Es una variante del generador lineal congruencial, pero sin el término de
                 incremento. Se define como:
-                <br /><code>Xₙ₊₁ = (aXₙ) mod m</code>. <br />Donde: <br />- <strong>a</strong>:
+                <br /><code>X(i) = (aX(i-1)) mod m</code>. <br />Donde: <br />- <strong>a</strong>:
                 multiplicador <br />- <strong>m</strong>: módulo <br />- <strong>X₀</strong>:
                 semilla inicial
               </p>
